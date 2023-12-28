@@ -3,6 +3,6 @@
 I am a new data analyst who is interested in deriving insights through data analysis.⌨
 
 We will always do our best without stopping to develop.🔥
-# My skills
+## My skills
 https://img.shields.io/badge/Python-blue
 
