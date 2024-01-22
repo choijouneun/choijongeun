@@ -37,11 +37,11 @@ We will always do our best without stopping to develop.🔥
   - 분석에서 고려한 변수들로 최적입지를 선정하기엔 분석의 타당도가 떨어진다는 한계점
  
 * 파이썬 코드
-  - [히트맵 파이썬코드](https://github.com/hanhojong/project/blob/main/heatmap%20code.ipynb)
-  - [노인복지시설개수 heatmap](https://github.com/hanhojong/project/blob/main/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%EA%B0%9C%EC%88%98%20heatmap.png)
-  - [부동산시세 heatmap](https://github.com/hanhojong/project/blob/main/%EB%B6%80%EB%8F%99%EC%82%B0%EC%8B%9C%EC%84%B8%20heatmap.png)
-  - [노인인구 heatmap](https://github.com/hanhojong/project/blob/main/%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20heatmap.png)
-  - [대중교통편의지수 heatmap](https://github.com/hanhojong/project/blob/main/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%ED%8E%B8%EC%9D%98%EC%A7%80%EC%88%98%20heatmap.png)
+  - [히트맵 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/heatmap%20code.ipynb)
+  - [노인복지시설개수 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%EA%B0%9C%EC%88%98%20heatmap.png)
+  - [부동산시세 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%B6%80%EB%8F%99%EC%82%B0%EC%8B%9C%EC%84%B8%20heatmap.png)
+  - [노인인구 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20heatmap.png)
+  - [대중교통편의지수 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%ED%8E%B8%EC%9D%98%EC%A7%80%EC%88%98%20heatmap.png)
 
 ___
 
@@ -69,7 +69,7 @@ ___
   - 각 구단의 제정 상태에 따라 책정되는 금액이 상이할 수 있다는 한계
 
 * 프로젝트
-  - [프로야구투수연봉예측 프로젝트](https://github.com/hanhojong/project/blob/main/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC%20%ED%88%AC%EC%88%98%20%EC%97%B0%EB%B4%89%EC%98%88%EC%B8%A1.pdf)
+  - [프로야구투수연봉예측 프로젝트](https://github.com/choijouneun/choijongeun/blob/main/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC%20%ED%88%AC%EC%88%98%20%EC%97%B0%EB%B4%89%EC%98%88%EC%B8%A1.pdf)
 
 ___
 
@@ -98,29 +98,11 @@ ___
   - 워드클라우드의 큰 의미없는 단어를 모아놓는 불용어사전 제작 부분에서 사람들마다 사용하는 텍스트가 달라 표준화된 불용어사전 제작의 한계점
 
 * 파이썬 코드
-  - [텍스트분석 파이썬코드](https://github.com/hanhojong/project/blob/main/kakaotalk%20text%20analysis.ipynb)
-  - [워드클라우드 파이썬코드](https://github.com/hanhojong/project/blob/main/wordcloud.ipynb)
+  - [텍스트분석 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/kakaotalk%20text%20analysis.ipynb)
+  - [워드클라우드 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/wordcloud.ipynb)
 
 ____
 
-#### 4. 스크린골프장 상권분석
-* 분석 배경
-  * 2023년 9월에 저희집이 인수한 스크린 골프장 신규 이벤트 기획을 위해 주변 상권을 분석한 후 이에 부합하는 이벤트를 기획하기 위해 분석을 진행하였습니다.
-
-* 분석툴
-  * 파이썬
-    - numpy, pandas 패키지를 활용해 데이터 분석
-    - matplotlib, seaborn 패키지를 활용해 데이터 시각화
-
-* 분석절차
-  1. 데이터 수집: 공공데이터포털인 열린데이터광장에서 서울 상권 데이터 추출, 골프장 관련 데이터는 저희 매장에서 추출
-  2. 데이터 전처리: 서울 상권 영역과 추정매출 데이터의 공통 변수 조인하여 데이터 추출 후 해당 데이터에서 금천구 데이터만 추출
-  3. 데이터 분석: 상관관계분석, 주성분분석, 회귀분석을 통해 금천구 상권의 특성 도출
-  4. 결론: 요인별 금천구 상권의 특성과 현재 스크린 골프장의 특성을 비교하여 최종 이벤트 도출
-  5. 기대효과: 이벤트를 진행함으로서 신규 고객 유치와 안정적인 수익구조를 가질 것으로 예상
-
-* 분석결과
-  - 금천구의 네가지 요인(성별, 시간대, 요일별, 연령별)별 특성을 파악, 저희 스크린 골프장의 요인별 특성과 비교하여 부합하는 이벤트 도출하였습니다.
 
 * 프로젝트 한계점
   - 면적이 넓은 금천구로 분석을 진행함으로서 분석 결과의 타당도가 떨어진다는 한계점
