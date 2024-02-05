@@ -101,12 +101,4 @@ ___
   - [텍스트분석 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/kakaotalk%20text%20analysis.ipynb)
   - [워드클라우드 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/wordcloud.ipynb)
 
-____
 
-
-* 프로젝트 한계점
-  - 면적이 넓은 금천구로 분석을 진행함으로서 분석 결과의 타당도가 떨어진다는 한계점
-  - 주성분 회귀분석을 진행함으로서 각각의 요인의 영향을 판단하기 힘들다는 한계점
-
-* 파이썬 코드
-  * [상권분석 파이썬코드](https://github.com/hanhojong/project/blob/main/commercial%20analysis.ipynb)
