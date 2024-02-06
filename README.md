@@ -129,5 +129,5 @@ ___
 
 
  * 파이썬 코드
-- [타이타닉 머신러닝 파이썬코드]()
+- [타이타닉 머신러닝 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/(%EC%BA%90%EA%B8%80)%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89_%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_.ipynb)
 
