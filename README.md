@@ -201,6 +201,6 @@ ____
 
 
  * 파이썬 코드
- - 
+ - [당뇨병환자 예측 파이썬 코드] (https://github.com/choijouneun/choijongeun/blob/main/%EB%8B%B9%EB%87%A8%EB%B3%91%ED%99%98%EC%9E%90_%EC%B5%9C%EC%A2%85%EC%9D%80.ipynb)
   
 
