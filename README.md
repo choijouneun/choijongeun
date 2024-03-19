@@ -133,7 +133,7 @@ ___
 
 * 파이썬 코드
   - [분석보고서](https://github.com/choijouneun/choijongeun/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20ppt.pptx)
-  - [파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/wordcloud.ipynb)
+  - [파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/crawling_project_code_2%20(1).ipynb)
 
 ____
 
