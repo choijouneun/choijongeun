@@ -103,6 +103,8 @@ ___
   - [텍스트분석 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/kakaotalk%20text%20analysis.ipynb)
   - [워드클라우드 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/wordcloud.ipynb)
 
+___
+
 
 #### 4. 새로운 AWS 교육 서비스를 진행하기 위한 자료 수집과 분석
 * 분석 배경
