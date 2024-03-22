@@ -10,8 +10,8 @@ We will always do our best without stopping to develop.🔥
 ![SPSS](https://img.shields.io/badge/SPSS-217346?style=for-the-badge&logo=SPSS&logoColor=white)
 
 ## Contect
-1.데이터분석 프로젝트
-2.머신러닝 프로젝트
+- 데이터분석 프로젝트
+- 머신러닝 프로젝트
 
 
 ## My Project
