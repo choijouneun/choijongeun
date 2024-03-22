@@ -8,8 +8,15 @@ We will always do our best without stopping to develop.🔥
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![SPSS](https://img.shields.io/badge/SPSS-217346?style=for-the-badge&logo=SPSS&logoColor=white)
+
+## Contect
+1.데이터분석 프로젝트
+2.머신러닝 프로젝트
+
+
 ## My Project
 
+### 데이터분석
 #### 1. 노인복지시설 최적입지선정
 * 분석 배경
   * 점점 고령화 인구가 증가하면서 노인복지시설의 부족함으로 인한 문제가 대두되고 있어 노인복지시설 건축이 가장 시급한 지역을 알기 위해 분석을 진행하였습니다.
@@ -104,9 +111,9 @@ ___
   - [워드클라우드 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/wordcloud.ipynb)
 
 ___
+### 머신러닝 프로젝트
 
-
-#### 4. 새로운 AWS 교육 서비스를 진행하기 위한 자료 수집과 분석
+#### 1. 새로운 AWS 교육 서비스를 진행하기 위한 자료 수집과 분석
 * 분석 배경
   * 천재교육이 이번년도  aws공인교육자격증을 얻어 aws교육시장에 진출하려해, aws관련직무를 뽑는 회사에 대한 정보를 수집하기위해 분석을 진행하였다.
 
@@ -140,7 +147,7 @@ ___
 ____
 
 
-#### 5. (캐글) 타이타닉 머신러닝 랜덤포레스트
+#### 2. (캐글) 타이타닉 머신러닝 랜덤포레스트
 * 분석 배경
   * 타이타닉의 데이터를 통해 데이터전처리에 대한 부분과 이것을 어떻게 활용하는지에 대한 공부와 머신러닝에 대한 이해를 돕고자 시작하게됐다.
 
@@ -171,7 +178,7 @@ ____
 
 ___
 
-#### 6. 당뇨병 환자 분류
+#### 3. 당뇨병 환자 분류
 
 - 분석 배경
     - 환자들에 대한 데이터를 입력하면 이 환자가 당뇨병인지 아닌지 판별할 수 있는 머신러닝으로 사람들이 굳이 검사를 하지 않고도 당뇨병 자가진단을 할 수 있지 않을까 생각되어 분석을 진행하게됐습니다.
