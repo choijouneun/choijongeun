@@ -45,10 +45,10 @@ We will always do our best without stopping to develop.🔥
  
 * 파이썬 코드
   - [히트맵 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/heatmap%20code.ipynb)
-  - [노인복지시설개수 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%EA%B0%9C%EC%88%98%20heatmap.png)
-  - [부동산시세 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%B6%80%EB%8F%99%EC%82%B0%EC%8B%9C%EC%84%B8%20heatmap.png)
-  - [노인인구 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20heatmap.png)
-  - [대중교통편의지수 heatmap](https://github.com/choijouneun/choijongeun/blob/main/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%ED%8E%B8%EC%9D%98%EC%A7%80%EC%88%98%20heatmap.png)
+  - [노인복지시 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%EA%B0%9C%EC%88%98%20heatmap.png)
+  - [부동산시세 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0%EC%8B%9C%EC%84%B8%20heatmap.png)
+  - [노인인구 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20heatmap.png)
+  - [대중교통편의지수 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%ED%8E%B8%EC%9D%98%EC%A7%80%EC%88%98%20heatmap.png)
 
 ___
 
@@ -77,7 +77,7 @@ ___
   - 각 구단의 제정 상태에 따라 책정되는 금액이 상이할 수 있다는 한계
 
 * 프로젝트
-  - [프로야구투수연봉예측 프로젝트](https://github.com/choijouneun/choijongeun/blob/main/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC%20%ED%88%AC%EC%88%98%20%EC%97%B0%EB%B4%89%EC%98%88%EC%B8%A1.pdf)
+  - [프로야구투수연봉예측 프로젝트](https://github.com/choijouneun/choijongeun/blob/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC-%ED%88%AC%EC%88%98-%EC%97%B0%EB%B4%89%EC%98%88%EC%B8%A1/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC%20%ED%88%AC%EC%88%98%20%EC%97%B0%EB%B4%89%EC%98%88%EC%B8%A1.pdf)
 
 ___
 
@@ -107,8 +107,8 @@ ___
   - 워드클라우드의 큰 의미없는 단어를 모아놓는 불용어사전 제작 부분에서 사람들마다 사용하는 텍스트가 달라 표준화된 불용어사전 제작의 한계점
 
 * 파이썬 코드
-  - [텍스트분석 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/kakaotalk%20text%20analysis.ipynb)
-  - [워드클라우드 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/wordcloud.ipynb)
+  - [텍스트분석 파이썬코드](https://github.com/choijouneun/choijongeun/blob/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EB%8C%80%ED%99%94%EB%B6%84%EC%84%9D%EA%B8%B0/kakaotalk%20text%20analysis.ipynb)
+  - [워드클라우드 파이썬코드](https://github.com/choijouneun/choijongeun/blob/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EB%8C%80%ED%99%94%EB%B6%84%EC%84%9D%EA%B8%B0/wordcloud.ipynb)
 
 ___
 ### 머신러닝 프로젝트
@@ -141,8 +141,9 @@ ___
   - 시간관계상 데이터 전처리하는 부분에 있어 제대로 못한것이 아쉬웠다.
 
 * 파이썬 코드
-  - [분석보고서](https://github.com/choijouneun/choijongeun/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20ppt.pptx)
-  - [파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/crawling_project_code_final.ipynb)
+  - [분석보고서](https://github.com/choijouneun/choijongeun/blob/bigdata7%EA%B8%B0-crawing-_project/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%207%EA%B8%B0%2024.03.05%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C%20%EC%86%A1%EC%A7%80%ED%99%98%2C%20%EC%B5%9C%EC%A2%85%EC%9D%80%2C%20%EA%B9%80%EC%88%98%EC%A7%84%2C%20%EC%9D%B4%EB%AF%BC%EC%95%84.docx)
+  - [crawing_project ppt](https://github.com/choijouneun/choijongeun/blob/bigdata7%EA%B8%B0-crawing-_project/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20ppt.pptx)
+  - [파이썬코드](https://github.com/choijouneun/choijongeun/blob/bigdata7%EA%B8%B0-crawing-_project/crawling_project_code_final.ipynb)
 
 ____
 
