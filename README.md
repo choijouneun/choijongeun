@@ -1,4 +1,4 @@
- # 빅데이터 7기 중간프로젝트 i-SON 👋
+# 빅데이터 7기 중간프로젝트 i-SON 👋
 - - -
 ## **❤️‍🔥 천재교육 빅데이터 7기 i-SON(아이손) 팀입니다! ❤️‍🔥** 
 
@@ -23,10 +23,8 @@ i-son은 5-6세 유아들의 학습 경험을 향상시키기 위해 설계된 �
 
 <br>
 <p align="left">
-  <img src=https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/b554d8c6-7b6c-4d5a-9b91-c6f864487d60 width = "630px">
+  <img src=https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/27609c4e-7ec6-4556-9169-3ddb4962aa9d width = "630px">
 
-
-</p>
 
 - - -
 
@@ -215,40 +213,35 @@ i-son은 5-6세 유아들의 학습 경험을 향상시키기 위해 설계된 �
 <details>
   <summary><b>🎭 따라해! 놀이터</b></summary>
   <p align='left'>
-    <img src="https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/b11b513b-a5f8-4c3f-be94-f3416fda1e2a" width="400px">
-    <img src="https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/ba513746-2b2e-40d3-a921-6aac039dabf7" width="400px">
-    <img src="https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/672430ba-5263-4385-a487-63d5a7da06a2" width="400px">
-    <img src="https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/5de352bd-bafd-46f0-b4d6-ce5814557235" width="400px">
-    <img src="https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/95b9efe2-c945-4970-ae55-d575c09d4e6a" width="400px">
-    <img src="https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/8d53f9b1-a962-41da-94c9-c44f4f2013a6" width="400px">
-    <img src="https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/1fed8379-ac87-4f0c-9b00-0377a2150e89" width="400px">
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/a8ad6457-9605-4ddf-a8e5-1b1c01593b7f" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/0c52f251-2884-41e4-b65d-612cac8bb7cc" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/6693f6f8-14df-481e-8b68-d02a9a179f8e" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/29450373-63f5-47e3-b071-d1ac2fc127ac" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/438ed6fa-52c4-4393-855c-591090ba2c85" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/cac8e55d-a747-40be-bcd0-f911e4f80b8f" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/68a240de-2c35-48af-8f7a-8c6015a72bd8" width="400px"><br>
   </p>
 </details>
-
-
 <br>
-
 <details>
-<summary><b>🐭 잡아라! 두더지</b></summary>
+  <summary><b>🐭 잡아라! 두더지</b></summary>
   <p align='left'>
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/d982a1a3-df0f-4e6e-9f21-21092132a8ff" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/89f06893-50ad-4219-9cb5-5866c8537138" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/a62dcc45-b309-4691-aa3e-f081c6a50a89" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/9ce37cde-c6af-4f58-b45b-6a87c170087d" width = "400px">
-
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/cf6910e7-5bfe-41af-a76e-075f9cf3754d" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/5b324c45-f454-4d85-9631-96ce2656a11d" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/cb450f35-3c78-41ce-a3ad-4b4d2b170bbc" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/c31eab14-084c-44b1-a46a-967d1b826017" width="400px"><br>
+  </p>
 </details>
-
 <br>
-
 <details>
-<summary><b>📝 맞춰라! 색종이</b></summary>
+  <summary><b>📝 맞춰라! 색종이</b></summary>
   <p align='left'>
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/6299a5e0-4de9-48d9-b0eb-dd886d41c8ee" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/e001d7a3-6296-4b7d-8927-0c03044cd7e9" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/a6a09329-c49f-4670-a904-ef640fe4b754" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/832d4e80-7433-4309-abfc-376227f02e86" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/a3a32cfb-3de8-40c2-a93d-014dc50830b5" width = "400px">
-    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/126303ff-cdaf-4755-8bf5-76c522fd63b7" width = "400px">
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/fbc1e108-b396-4f23-8e6b-98803fb69e9a" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/f76a291c-afb6-4cfe-b045-f42110b76b00" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/ca670d66-408d-44d2-9453-17bcd6fe1d7a" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/b682b102-841d-4838-9776-4703eaeab31d" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/cd9c11f6-2bb0-4c86-bbad-ac385427f011" width="400px"><br>
+    <img src = "https://github.com/sunny7319/Hands_MediaPipe_project/assets/112309620/f34e8113-cc0b-419d-92f0-31c248654007" width="400px"><br>
   </p>
 </details>
 
