@@ -26,7 +26,4 @@
   - 아직 통계분석에 대한 많은 이해를 하지못해 많은 가설검정을 하지 못했다.
   - 시간관계상 데이터 전처리하는 부분에 있어 제대로 못한것이 아쉬웠다.
 
-* 파이썬 코드
-  - [분석보고서](https://github.com/choijouneun/choijongeun/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20ppt.pptx)
-  - [파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/crawling_project_code_final.ipynb)
 
