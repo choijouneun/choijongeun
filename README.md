@@ -1,216 +1,269 @@
-# Hi there 👋
-## Hi there! I'm choi jong eun.
-I am a new data analyst who is interested in deriving insights through data analysis.⌨
+# 빅데이터 7기 최종프로젝트 Quest-Genie 🧞
+**❤️‍🔥 천재교육 빅데이터 7기 Quest-Genie🧞(퀘스트 지니) 팀입니다! ❤️‍🔥** 
 
-We will always do our best without stopping to develop.🔥
-## My skills
-![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![SPSS](https://img.shields.io/badge/SPSS-217346?style=for-the-badge&logo=SPSS&logoColor=white)
+현재 공교육에서 AI 디지털 교과서 도입이 큰 이슈로 떠오르고 있으며, 교육부는 2024년 관련 예산을 5333억 원 편성했다. AI 교과서는 연 구독료 6만~10만 원으로 예상되며, 조 단위 교과서 시장이 창출될 전망이다. 개별화 및 맞춤형 교육에 대한 기대가 커지고 있으며, 특히 고등학교에서는 킬러 문항 제거로 인해 다양한 문항 풀이가 중요해졌다. 그러나 교사들이 수작업으로 교육 콘텐츠를 제작해야 하는 한계가 있다. 경쟁사 분석 결과, 비상교육의 기출탭탭은 태블릿PC 기반의 수능 기출 학습 앱으로 유사 문항 제공 기능을 갖추고 있으며, 프리윌린의 매쓰플랫은 70만 개의 수학 문제를 제공해 교사 주도의 교육을 지원한다. 자사 분석 결과, 천재교과서의 지니아튜터는 자동채점과 AI유사학습 서비스를 제공하며, 닥터매쓰의 통합문항플랫폼은 맞춤 문항과 유사 문제를 제공한다. 이를 바탕으로 국어, 영어, 수학 교과를 중심으로 유사 문항 추천 서비스를 제공해 고등학생의 개별화 및 맞춤형 교육을 지원하는 것이 필요하다.
 
-## Contect
-- 데이터분석 프로젝트
-- 머신러닝 프로젝트
+## 주요 기능
+
+- ☝️**유사문항 추천**: 프롬프트 엔지니어링을 활용하여 외부문제의 텍스트와 이미지를 활용하여 수능 기출문제와의 유사도를 측정해 유사도가 높은 5개의 문항을 추천해줌.
+- ✌️**버전관리**: 매 분기별 새로운 수능, 모평 기출이 새로 출제됨과 동시에 웹사이트 내에서 기출문제의 pdf와 정답지를 업로드 하면 그것을 기반으로 DB에 적재하여 유사문항 추천에 추가됨.
 
 
-## My Project
+<br>
 
-### 데이터분석
-#### 1. 노인복지시설 최적입지선정
-* 분석 배경
-  * 점점 고령화 인구가 증가하면서 노인복지시설의 부족함으로 인한 문제가 대두되고 있어 노인복지시설 건축이 가장 시급한 지역을 알기 위해 분석을 진행하였습니다.
-
-* 분석툴
-  * 파이썬
-    - pandas, geopandas 패키지를 활용해 데이터 분석
-    - folium 패키지를 활용해 히트맵 시각화
-  * SPSS
-    - 군집분석을 위해 Elbow-Method, Silhouette 계수를 추출하여 최적 군집 수 결정
-    - K-means, Gaussian, Agglomerlative 군집분석 진행
-
-* 분석절차
-  1. 데이터 수집: 공공데이터포털인 열린데이터광장과 빅데이터캠퍼스에서 노인 관련 데이터 수집
-  2. 데이터 전처리: 법정동명을 행정동명으로 통일화, MIN-MAX 정규화를 통해 데이터 표준화
-  3. 데이터 분석: 히트맵을 통해 행정동별 데이터 시각화 후 군집 분석 진행, 각각의 군집분석 결과의 교집합인 행정동을 최적입지로 선정
-  4. 결론: 최적입지로 선정된 행정동 중 인구와 현재의 노인복지시설 개수를 고려하여 최종입지선정
-  5. 기대효과: 점점 늘어날 것으로 추정되는 고령화 인구에 대비해 미리 노인복지시설을 건축하여 미래 노인의 삶의 질 향상
-
-* 분석결과
-  - 각각의 군집분석을 통해 추출된 행정동 중 교집합에 해당하는 21개 행정동 추출, 이 중 노인복지시설이 1개 이하인 행정동 9개를 추출하여 최적입지로 선정하였습니다.
-
-* 프로젝트 한계점
-  - 네 개의 노인복지시설을 모두 합한 후 분석을 진행하여 도출된 결과이기 떄문에 해당하는 행정동에 어떤 노인복지시설이 필요한지 모른다는 한계점
-  - 분석에서 고려한 변수들로 최적입지를 선정하기엔 분석의 타당도가 떨어진다는 한계점
- 
-* 파이썬 코드
-  - [히트맵 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/heatmap%20code.ipynb)
-  - [노인복지시 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%EA%B0%9C%EC%88%98%20heatmap.png)
-  - [부동산시세 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0%EC%8B%9C%EC%84%B8%20heatmap.png)
-  - [노인인구 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20heatmap.png)
-  - [대중교통편의지수 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%ED%8E%B8%EC%9D%98%EC%A7%80%EC%88%98%20heatmap.png)
-
-___
+<br>
+<p align="left">
+  <img src=https://github.com/user-attachments/assets/4d180855-24b9-4029-9fd6-bb9519d56d9f width = "630px">
+  
+<p align="left">
+  <img src=https://github.com/user-attachments/assets/a7b86868-b76d-4b4e-a3de-0ca915ca21e2 width = "630px">
 
 
-#### 2. 프로야구 투수 연봉예측 회귀분석
-* 분석 배경
-  * 프로야구 선수들은 매년 연봉 책정을 다시하게 되는데 본인의 연봉이 얼마로 책정될지 미리 알고있으면 연봉 협상에 있어서 주도권을 가질 수 있다고 판단하여 분석을 진행하였습니다.
-
-* 분석툴
-  * 미니텝
-    - 상관분석을 통한 상관관계 확인
-    - 회귀분석 진행
-
-* 분석절차
-  1. 데이터 수집: KBO기록실, STATIZE 에서 투수들의 성적 및 연봉 데이터 수집
-  2. 데이터 전처리: 더미변수인 '투수 포지션' 을 기준으로 선수를 분류한 후 각각의 포지션에 부합하는 변수를 분류
-  3. 데이터 분석: 다중공선성 문제를 예방하기 위해 상관분석을 통해 상관관계가 높은 변수를 제거한 후 회귀분석 진행
-  4. 결론: 각 포지션 별 최종 회귀모형 도출, 실제 선수들의 연봉과 비교
-  5. 기대효과: 선수들이 구단과의 연봉 협상에 있어서 주도권을 가질 수 있으며, 다른 구단과의 계약에 있어서도 큰 도움이 될 것이라 예상
-
-* 분석결과
-  - 최종 회귀모형을 도출하여 실제 선수들의 연봉과 비교해본 결과 80% 부합하는 것을 확인하였습니다.
-
-* 프로젝트 한계점
-  - 선수들의 성적과 연봉 외에는 다른 변수를 고려하지 않아 다른 외적 변수가 작용할 수 있다는 한계점 (ex: 나이, 성장가능성 등)
-  - 각 구단의 제정 상태에 따라 책정되는 금액이 상이할 수 있다는 한계
-
-* 프로젝트
-  - [프로야구투수연봉예측 프로젝트](https://github.com/choijouneun/choijongeun/blob/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC-%ED%88%AC%EC%88%98-%EC%97%B0%EB%B4%89%EC%98%88%EC%B8%A1/%ED%94%84%EB%A1%9C%EC%95%BC%EA%B5%AC%20%ED%88%AC%EC%88%98%20%EC%97%B0%EB%B4%89%EC%98%88%EC%B8%A1.pdf)
-
-___
 
 
-#### 3. 카카오톡 텍스트분석을 통한 생활습관개선
-* 분석 배경
-  * 대한민국 사람들이 가장 많이 사용하는 '카카오톡'에 사람들의 생활습관 및 대화습관이 녹아있다고 생각하여 카카오톡 텍스트 분석을 통해 평소의 문제점을 확인하기 위해 분석을 진행하였습니다.
+## **🤍 소개**
 
-* 분석툴
-  * 파이썬
-    - numpy, pandas 패키지를 활용해 데이터 분석
-    - matplotlib, seaborn, wordcloud 패키지를 활용해 데이터 시각화
-
-* 분석절차
-  1. 데이터 수집: '카카오톡 내보내기' 기능을 이용해 카톡방 텍스트 추출
-  2. 데이터 전처리: 추출된 텍스트 파일을 엑셀을 활용하여 분석 가능하도록 전처리 진행
-  3. 데이터 분석: 가장 활발히 대화가 이루어지는 시간, 대화 빈도수 등 분석 결과 도출
-  4. 결론: 비속어 사용 빈도수, 시간 별 대화 빈도수 등을 통해 사람들의 안좋은 대화 및 생활습관 확인
-  5. 기대효과: 분석을 통해 발견한 안좋은 대화 및 생활 습관을 개선함으로서 생활의 질 향상
-
-* 분석결과
-  - 대화가 가장 활발한 시간, 카톡 전송 횟수 등 다양한 데이터 분석을 통해 저를 포함한 팀원들이 늦은 시간까지 활동하는 것을 확인하였습니다.
-  - 느낌표 사용 횟수, 자주 웃는 순위 등을 통해 팀원들의 SNS에서의 대화 습관을 확인하였습니다.
-
-* 프로젝트 한계점
-  - PC 카카오톡과 핸드폰 카카오톡의 내보내기 기능을 통해 추출받은 데이터의 양식이 다르고 저장되는 내용에 차이가 있어 따로 분석해야한다는 한계점
-  - 워드클라우드의 큰 의미없는 단어를 모아놓는 불용어사전 제작 부분에서 사람들마다 사용하는 텍스트가 달라 표준화된 불용어사전 제작의 한계점
-
-* 파이썬 코드
-  - [텍스트분석 파이썬코드](https://github.com/choijouneun/choijongeun/blob/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EB%8C%80%ED%99%94%EB%B6%84%EC%84%9D%EA%B8%B0/kakaotalk%20text%20analysis.ipynb)
-  - [워드클라우드 파이썬코드](https://github.com/choijouneun/choijongeun/blob/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EB%8C%80%ED%99%94%EB%B6%84%EC%84%9D%EA%B8%B0/wordcloud.ipynb)
-
-___
-### 머신러닝 프로젝트
-
-#### 1. 새로운 AWS 교육 서비스를 진행하기 위한 자료 수집과 분석
-* 분석 배경
-  * 천재교육이 이번년도  aws공인교육자격증을 얻어 aws교육시장에 진출하려해, aws관련직무를 뽑는 회사에 대한 정보를 수집하기위해 분석을 진행하였다.
-
-* 분석툴
-  * 파이썬
-
-* 분석절차
-  1. 데이터 수집: 랠릿,원티드,프로그래머스,유데미,
-  2. 데이터 전처리: 추출된 데이터프레임을 분석이 가능하도록 전처리를 진행한다.
-  3. 데이터 분석: 경력(신입, 주니어, 미들, 시니어)별로 기술스택에 차이가있나, 기업형태(중소기업, 중견기업, 대기업)별로 기술스택에 차이가 있나
-  4. 결론
-      - 대기업과 중견기업의 요구 기술스택 차이만이 95% 유의수준에서 유의하지 않았고, 중소기업과 대기업, 중소기업과 중견기업의 차이는 유의한 것으로 나타나, 중소기업에서 대기업이나 
-          중견기업으로 이직 혹은 취직을 노리는 교육생에게 교육을 진행할 기술스택의 우선순위를 달리 하는 것이 타당하다는 결론을 내렸다
-      - 신입, 주니어, 미들, 시니어 네 경력 분류에 대해 모든 비교 결과가 95% 유의수준에서 유의하였다. 즉, 요구하는 경력 별로 요구하는 기술 스택의 차이가 있는 것으로 밝혀졌다.
-      -  
-  6. 기대효과:경력별로 다르게 타겟을 정해 강의커리큘럼을 정하거나 중소기업->(중견,대)기업으로 이직을 희망하는 사람들을 타겟으로 강의커리큘럼을 만들어 수익을 올릴 수 있다.
-
-* 분석결과
-  - 대기업과 중견기업의 요구 기술스택 차이만이 95% 유의수준에서 유의하지 않았고, 중소기업과 대기업, 중소기업과 중견기업의 차이는 유의한 것으로 나타나, 중소기업에서 대기업이나 
-  중견기업으로 이직 혹은 취직을 노리는 교육생에게 교육을 진행할 기술스택의 우선순위를 달리 하는 것이 타당하다는 결론을 내렸다
-  - 신입, 주니어, 미들, 시니어 네 경력 분류에 대해 모든 비교 결과가 95% 유의수준에서 유의하였다. 즉, 요구하는 경력 별로 요구하는 기술 스택의 차이가 있는 것으로 밝혀졌다.
-
-* 프로젝트 한계점
-  - 아직 통계분석에 대한 많은 이해를 하지못해 많은 가설검정을 하지 못했다.
-  - 시간관계상 데이터 전처리하는 부분에 있어 제대로 못한것이 아쉬웠다.
-
-* 파이썬 코드
-  - [분석보고서](https://github.com/choijouneun/choijongeun/blob/bigdata7%EA%B8%B0-crawing-_project/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%207%EA%B8%B0%2024.03.05%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C%20%EC%86%A1%EC%A7%80%ED%99%98%2C%20%EC%B5%9C%EC%A2%85%EC%9D%80%2C%20%EA%B9%80%EC%88%98%EC%A7%84%2C%20%EC%9D%B4%EB%AF%BC%EC%95%84.docx)
-  - [crawing_project ppt](https://github.com/choijouneun/choijongeun/blob/bigdata7%EA%B8%B0-crawing-_project/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20ppt.pptx)
-  - [파이썬코드](https://github.com/choijouneun/choijongeun/blob/bigdata7%EA%B8%B0-crawing-_project/crawling_project_code_final.ipynb)
-
-____
-
-
-#### 2. (캐글) 타이타닉 머신러닝 랜덤포레스트
-* 분석 배경
-  * 타이타닉의 데이터를 통해 데이터전처리에 대한 부분과 이것을 어떻게 활용하는지에 대한 공부와 머신러닝에 대한 이해를 돕고자 시작하게됐다.
-
-* 분석툴
-  * 파이썬
-    - pandas, sklearn 패키지를 활용해 데이터 분석
-    -  matplotlib, seaborn패키지를 활용해 데이터를 시각화
-
-* 분석절차
-  1. 데이터 수집: kaggle
-  2. 데이터 전처리: train 데이터와 test데이터의 결측치를 확인하여 결측치가 너무 많고 필요가 없는 정보들은 삭제하고, 쓸만한 데이터는 다른변수들과의 분석을 통해 나온 평균값이나 결측치가 있는 변수의 최댓값, 평균값을 통하여 결측치를 대체하였다.  SibSp 와 Parch 변수를 합쳐서 FamilySize 라는 변수를 새로 만들었다. 범주형데이터들은 더미변수로 바꿔주어 분석에 오류가 나는것을 방지했다.
-  3. 데이터 분석: sklearn 패키지를 이용하여 랜덤포레스트로 train 데이터의 독립변수와 종속변수를 두고 학습시켰다. 이것을 바탕으로 test데이터의 생존률을 예측하여 생존률이라는 값을 나타냈다
-  4.결론: 예측률은 86 % 높은 예측치가 나왔다 test 데이터의 생존율 또한 35.16으로 train 데이터의 생존율인 38.3%와 많은 차이를 나타내지 않는다.
-  5. 기대효과: 이러한 머신러닝을 연습하여 숙지함으로써 실무에 나갔을 때 데이터를 전처리하는 법 어떤 상황에서 랜덤 포레스트를 써야 하는지에 대한 기술을 습득할 수 있습니다
-
-
-* 분석결과
-  - 예측률 86% 
-
-* 프로젝트 한계점
-  - kaggle에서 제시해준 데이터라 실무에 있는 데이터들과는 다르게 전처리하기 편하다는 점으로 실무를 경험해보기엔 다소 아쉬웠다.
-  - 아직은 데이터 전처리에 대한 부분에 경험을 많이 해보지 못하여 결측치가 많거나 정보가 필요 없다고 생각한 것은 삭제하였지만 경험이 더 풍부했다면 이러한 정보들도 쓸 수 있었을 거 같아 아쉽다. 
-
-
- * 파이썬 코드
- - [타이타닉 파이썬코드] 
-(https://github.com/choijouneun/choijongeun/blob/main/(%EC%BA%90%EA%B8%80)%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89_%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_.ipynb)
-
-___
-
-#### 3. 당뇨병 환자 분류
-
-- 분석 배경
-    - 환자들에 대한 데이터를 입력하면 이 환자가 당뇨병인지 아닌지 판별할 수 있는 머신러닝으로 사람들이 굳이 검사를 하지 않고도 당뇨병 자가진단을 할 수 있지 않을까 생각되어 분석을 진행하게됐습니다.
-- 분석툴
-    - 파이썬
-        - plt와sns를 활용해 시각화를 하였다.
-        -  라벨 인코딩을 통해 범주형 데이터를 라벨링 하였다.
-        -  수치형 변수들은 정규화를 해줬다.
-        -  1(당뇨병)인 사람이 0(정상)인 사람에 비해 데이터 값이 현저히 적어 오버샘플링 후 랜덤포레스트를 해줌
-           
-
-- 분석절차
-    1. 데이터 수집: kaggle
-    2. 데이터 전처리: 
-        1. 성별의 결측치를 남녀 비율에 맞게 나눠줌 
-        2.  흡연여부에서 결측치를 고혈압과 혈당을 이용하여 최빈값으로 결측치를 채워줬다. 
-        3. 흡연여부를 다른 범주로 나눠줬다.
-    3. 데이터 분석: 랜덤포레스트를 사용하여 머신러닝
-    4. 결론: 최적값이 약 97%로 상당히 높게 나왔다
-    5. 기대효과: 환자들이 굳이 당뇨병 검사를 하지 않고도 데이터만 넣어서 그 값으로 당뇨병을 판단하여 검사비를 아낄 수 있다.
-
-- 분석결과
-    - 예측값이 96.41%로 상당히 높게 나왔다
-    - 0(정상)을 예측하는것은 99% ,1(당뇨병)환자를 예측하는것 또한 72%가 나왔다.
-    
-- 프로젝트 한계점
-    - 데이터전처리에서 성별에 대한 부분은 18개로써 10만개의 데이터 중에서 0.001%로 그냥 삭제하고 진행해도 무방했을꺼같다.
-    - 흡연여부 결측치에서 또한 아직 데이터전처리에 대한 부분이 미숙하여 제대로 하지 못한거같아 아쉬웠다.
-
-
- * 파이썬 코드
- - [당뇨병환자 예측 파이썬 코드] (https://github.com/choijouneun/choijongeun/blob/main/%EB%8B%B9%EB%87%A8%EB%B3%91%ED%99%98%EC%9E%90_%EC%B5%9C%EC%A2%85%EC%9D%80.ipynb)
+<details>
+<summary> <b>👨‍👨‍👧‍👦 Team Member</b></summary><br>
   
 
+
+</br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hanaSummer0701">
+        <img src="https://github.com/hanaSummer0701.png" width="150px;" alt="하나"/>
+        <br />
+        <sub><b>🙋‍♀️장하나</b><br> - 데이터 정량화 및 전처리<br> - 문항시스템 개발 및 테스트<br> - 자동 태깅 모델 개발 및 테스트<br> - AWS S3 생성 및 설정, 관리<br> - 기획서 및 최종 보고서 작성</sub>
+</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/choijouneun">
+        <img src="https://github.com/choijouneun.png" width="150px;" alt="종은"/>
+        <br />
+        <sub><b>🙋‍♂️최종은</b><br>- 데이터 수집<br> - 데이터 정량화 및 전처리<br> - 문항시스템 개발 및 테스트<br> - 자동 태깅 모델 개발 및 테스트<br> - 멘토링 활동 보고서 작성<br> - Git 커밋 컨벤션/브렌치 전략<br> - 코드 컨벤션 정의</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/LeeMin-a">
+        <img src="https://github.com/LeeMin-a.png" width="150px;" alt="민아"/>
+        <br />
+        <sub><b>🙋‍♀️이민아</b><br> - 데이터 수집<br> - AWS 서버 생성 및 환경 구축<br> - FastAPI 기본 서버 환경 구축<br> - 도커 웹 서버 빌드<br> - DB와 웹 서버 연결 및 관리<br> - Wire Frame 작성<br> - 노션 관리</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sunny7319">
+        <img src="https://github.com/sunny7319.png" width="150px;" alt="선영"/>
+        <br />
+        <sub><b>🙋‍♀️민선영</b><br> -데이터 수집<br> - DB 구축 및 관리<br> - 도커컴포즈 작성 및 서버 연결<br> - 파이프라인 설계<br> - ppt 제작<br> - 테이블 정의서 작성</sub>
+      </a>
+    </td>
+  </tr>
+</table>
+</details>
+
+<details>
+<summary> <b>💻 Content</b></summary><br>
+
+</br>
+
+-  **📖 Korean** : 웹사이트에 접속하여 국어를 선택 한 후 사용자가 궁금한 외부문제를 첨부해 시작 버튼을 누르면 해당 문제와 유사한 문항 5개를 선별하여 보여줌. 
+
+- **🔢 Math** : 웹사이트에 접속하여 수학를 선택 한 후 사용자가 궁금한 외부문제를 첨부해 시작 버튼을 누르면 해당 문제와 유사한 문항 5개를 선별하여 보여줌. 
+  
+- **🔠 English** : 웹사이트에 접속하여 영를 선택 한 후 사용자가 궁금한 외부문제를 첨부해 시작 버튼을 누르면 해당 문제와 유사한 문항 5개를 선별하여 보여줌. 
+</details>
+
+
+<details>
+<summary> <b>⚙️ Used Tool/Stack</b></summary><br>
+
+</br>
+<p align="left">
+
+<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
+<img alt="TensorFlow" src ="https://img.shields.io/badge/TensorFlow-1677FF.svg?&style=for-the-badge&logo=TensorFlow&logoColor=black"/>
+<img alt="PyTorch" src ="https://img.shields.io/badge/PyTorch-EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white"/>
+<img alt="OpenCV" src ="https://img.shields.io/badge/OpenCV-5C3EE8.svg?&style=for-the-badge&logo=OpenCV&logoColor=white"/>
+<img alt="numpy" src ="https://img.shields.io/badge/numpy-013243.svg?&style=for-the-badge&logo=numpy&logoColor=white"/>
+<img alt="OpenAI" src ="https://img.shields.io/badge/OpenAI-412991.svg?&style=for-the-badge&logo=OpenAI&logoColor=white"/>
+<img alt="Anaconda" src ="https://img.shields.io/badge/Anaconda-44A833.svg?&style=for-the-badge&logo=Anaconda&logoColor=black"/>
+<img alt="postgresql" src ="https://img.shields.io/badge/postgresql-4169E1.svg?&style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img alt="Keras" src ="https://img.shields.io/badge/Keras-D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/>
+<img alt="FastAPI" src ="https://img.shields.io/badge/FastAPI-009688.svg?&style=for-the-badge&logo=FastAPI&logoColor=white"/>
+<img src = "https://img.shields.io/badge/visualstudiocode-007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img alt="Github" src = "https://img.shields.io/badge/github-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/>
+<img alt="git" src = "https://img.shields.io/badge/git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white"/>
+
+</p>
+</details>
+
+
+
+
+## **🩶 개발환경 및 실행 방법**
+
+<details>
+<summary><b>📄Requirements</b></summary>
+  
+  <br>
+    - pdf2image==1.17.0
+  <br>
+    - opencv-python==4.9.0.80
+  <br>
+    - pandas==2.2.2
+  <br>
+    - numpy==1.26.4
+  <br>
+    - pillow==10.3.0 
+  <br>
+    - fastapi==0.111.0 
+  <br>
+    - easyocr==1.7.1
+  <br>
+    - pytesseract==0.3.10
+  <br>
+    - pymupdf 
+  <br>
+    - glob2==0.7
+  <br>
+    - pymysql==1.1.1
+  <br>
+    - uvicorn==0.30.1
+  <br>
+    - elasticsearch==8.14.0
+  <br>
+    - keras==3.4.1
+  <br>
+    - tensorflow==2.17.0
+  <br>
+    - torch==2.3.1
+  <br>
+    - torchvision==0.18.1
+  <br>
+  </details>
+
+<details>
+<summary><b>🏃 How-to-Run</b></summary>
+
+  ### 가상환경 설정을 위한 콘다 설치
+  미니콘다(혹은 아나콘다) 설치
+  링크: https://docs.anaconda.com/free/miniconda/
+  설치 시 Just me 선택
+
+  ### 윈도우 시스템 환경변수 편집
+  > WIN 키 -> "시스템 환경 변수 편집" 검색 -> 시스템 속성 창 하단 "환경 변수(N)"
+  > -> 하단 시스템 변수(S) 중 "Path" 더블클릭 -> 새로만들기
+  > -> "C:\Users\USER\miniconda3\Scripts" & "C:\Users\USER\miniconda3\Library\bin"
+  > 입력 후 모든 창 "확인" 눌러 닫기
+  
+  ### 콘다 가상환경 만들기1 (가상환경 이름: Quest-Genie)
+  CMD 창 열고 아래와 같이 입력, 설치 중간에 "y" 입력(엔터), 설치 완료 후 CMD 닫기
+  ```cmd
+  conda create -n Quest_Genie 
+  ```
+  다시 CMD 창 열고 아래와 같이 입력 후 완료 시 닫기
+  ```cmd
+  conda init
+  ```
+
+  ### 콘다 가상환경 만들기2 (패키지 설치)
+  CMD 창 열고 아래와 같이 입력
+  ```cmd
+  conda activate Quest_Genie 
+  ```
+  ```cmd
+  pip install -r requirements.txt
+
+  ```
+
+  ### 가상 환경에서 실행 시키기
+  git pull, clone 등의 방법으로 main 브랜치 로컬에 저장 후  
+  Hands_MediaPipe_project 폴더 들어가서 폴더 상단 주소창에 CMD 입력, CMD 창 띄운 후
+  ```cmd
+  conda activate Quest_Genie
+  ```
+  ```cmd
+  python main.py
+  ```
+
+  #### ⚠️주의 사항⚠️
+  - 첫 실행시 자동생성되는 user.json 등 json 파일을 임의 편집하면 오류가 발생할 수 있습니다.
+  
+  - 버전관리를 실행할 경우 version -> preprocess -> preprocessing.py에서 base_directory_1 = os.path.join(final_pdf_output_dir, "MATH_G3_2024_07_calculus") 이런식으로 파일명으로 경로설정!
+
+  <br>
+
+</details>
+
+## **🖤 콘텐츠 미리보기**
+<details>
+  <summary><b>📖 Korean</b></summary>
+  <p align='left'>
+    <img src = "https://github.com/user-attachments/assets/97f2b281-993b-4053-b4f8-0a3ec5d56255" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/21c51771-70d5-465e-9b7e-dcb0a4692fee" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/b474b38a-f51b-41c2-90cd-80c731667e1b" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/ff65e4a5-0173-4a03-8bdb-fe7bf9191973" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/27fb5bd7-175e-4086-a74f-6dd0df34ca6c" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/03cc90fa-6158-4303-bbaa-c4ddb4f12284" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/3f0887de-fd3f-4084-a1be-b85d4260b16b" width="400px"><br>
+  </p>
+</details>
+<br>
+<details>
+  <summary><b>🔢 Math</b></summary>
+  <p align='left'>
+    <img src = "https://github.com/user-attachments/assets/435dc7b3-1161-4dc1-b3f2-ee491ca75b9c" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/06950dd2-5f4a-4739-9590-2d299fd9e058" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/69d76b2a-ee8f-45f5-bbc0-12b5748da798" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/5703465d-9699-437b-96d0-68a6789684c2" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/0848ca3c-c32c-4a8c-93a7-1cf561a4e31b" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/0ad5a6dc-8346-4a5b-8a64-d4bf68f8059f" width="400px"><br>
+  </p>
+</details>
+<br>
+<details>
+  <summary><b>🔠 English</b></summary>
+  <p align='left'>
+    <img src = "https://github.com/user-attachments/assets/435dc7b3-1161-4dc1-b3f2-ee491ca75b9c" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/06950dd2-5f4a-4739-9590-2d299fd9e058" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/69d76b2a-ee8f-45f5-bbc0-12b5748da798" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/5703465d-9699-437b-96d0-68a6789684c2" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/0848ca3c-c32c-4a8c-93a7-1cf561a4e31b" width="400px"><br>
+    <img src = "https://github.com/user-attachments/assets/0ad5a6dc-8346-4a5b-8a64-d4bf68f8059f" width="400px"><br>
+  </p>
+</details>
+
+- - -
+## **📚 참고문헌**
+<details>
+<summary><b>💡Reference </b></summary>
+<br>
+
+- 한국경제) "내년 도입될 AI 디지털 교과서 선점하라"
+https://n.news.naver.com/article/015/0004992468?sid=103
+- 피앤피뉴스) 킬러문항 없앤 첫 수능...적정 난이도로 변별력 갖췄다
+https://www.gosiweek.com/article/1065582631806593
+- 내일신문) 비상교육 태블릿PC 전용 수능 학습 앱 ‘기출탭탭’ 활용법
+https://www.naeil.com/news/read/455315
+- 에듀동아) 프리윌린, ‘2024 인공지능 학습 플랫폼 매칭데이’에서 매쓰플랫과 풀리수학 선보여
+http://m.edu.donga.com/news/view.php?at_no=20240223113015145830
+- 에듀동아) 프리윌린, 학교 맞춤형 에듀테크 서비스 ‘스쿨플랫’ 오픈…AI 기술로 교실에 ‘초개인화
+교육’ ‘학 습 격차 해소’ 지원
+http://m.edu.donga.com/news/view.php?at_no=20240516151302535017
+- 뉴스핌) 아티피셜소사이어티, 서울특별시교육청에 교육 콘텐츠 AI 솔루션 '젠큐' 공급
+https://www.newspim.com/news/view/20240118000068
+- 전자신문) 비상교육 '비바샘', AI 기반 수학 문항 자동 생성 서비스
+https://n.news.naver.com/article/030/0003078902?sid=102
+- QuestionWell 홈페이지 https://www.questionwell.org/
+- 천재교과서 지니아튜터, 서울시교육청 주최 에듀테크 교원연수 참가
+https://www.it-b.co.kr/news/articleView.html?idxno=76613
+- 천재교과서, 최신형 AI 엔진 탑재 수학문제은행 ‘닥터매쓰2.0’ 그랜드 오픈
+https://www.it-b.co.kr/news/articleView.html?idxno=69518
+- 문제지 header, body영역 분리 참고 블로그 https://kagus2.tistory.com/50 
+- 각 문항 컨투어영역 참고 블로그 https://iagreebut.tistory.com/74 
+- ssh 연결 오류 해결 참고 블로그 https://lovflag.tistory.com/17 ssh 
+- ElasticSearch-FastAPI 연결 참고 자료 https://medium.com/@pritam7798sonawane/building-a-text-search-application-with-elasticsearchand-fastapi-14ea78cf1890
+</details>
