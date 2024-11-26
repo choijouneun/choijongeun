@@ -17,39 +17,53 @@ We will always do our best without stopping to develop.🔥
 ## My Project
 
 ### 데이터분석
-#### 1. 노인복지시설 최적입지선정
-* 분석 배경
-  * 점점 고령화 인구가 증가하면서 노인복지시설의 부족함으로 인한 문제가 대두되고 있어 노인복지시설 건축이 가장 시급한 지역을 알기 위해 분석을 진행하였습니다.
 
-* 분석툴
-  * 파이썬
-    - pandas, geopandas 패키지를 활용해 데이터 분석
-    - folium 패키지를 활용해 히트맵 시각화
-  * SPSS
-    - 군집분석을 위해 Elbow-Method, Silhouette 계수를 추출하여 최적 군집 수 결정
-    - K-means, Gaussian, Agglomerlative 군집분석 진행
-
-* 분석절차
-  1. 데이터 수집: 공공데이터포털인 열린데이터광장과 빅데이터캠퍼스에서 노인 관련 데이터 수집
-  2. 데이터 전처리: 법정동명을 행정동명으로 통일화, MIN-MAX 정규화를 통해 데이터 표준화
-  3. 데이터 분석: 히트맵을 통해 행정동별 데이터 시각화 후 군집 분석 진행, 각각의 군집분석 결과의 교집합인 행정동을 최적입지로 선정
-  4. 결론: 최적입지로 선정된 행정동 중 인구와 현재의 노인복지시설 개수를 고려하여 최종입지선정
-  5. 기대효과: 점점 늘어날 것으로 추정되는 고령화 인구에 대비해 미리 노인복지시설을 건축하여 미래 노인의 삶의 질 향상
-
-* 분석결과
-  - 각각의 군집분석을 통해 추출된 행정동 중 교집합에 해당하는 21개 행정동 추출, 이 중 노인복지시설이 1개 이하인 행정동 9개를 추출하여 최적입지로 선정하였습니다.
-
-* 프로젝트 한계점
-  - 네 개의 노인복지시설을 모두 합한 후 분석을 진행하여 도출된 결과이기 떄문에 해당하는 행정동에 어떤 노인복지시설이 필요한지 모른다는 한계점
-  - 분석에서 고려한 변수들로 최적입지를 선정하기엔 분석의 타당도가 떨어진다는 한계점
+<details>
+<summary> <b> 노인복지시설 최적입지선정</b></summary><br>
  
-* 파이썬 코드
-  - [히트맵 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/heatmap%20code.ipynb)
-  - [노인복지시 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%EA%B0%9C%EC%88%98%20heatmap.png)
-  - [부동산시세 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0%EC%8B%9C%EC%84%B8%20heatmap.png)
-  - [노인인구 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20heatmap.png)
-  - [대중교통편의지수 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%ED%8E%B8%EC%9D%98%EC%A7%80%EC%88%98%20heatmap.png)
+<p align="left">
+  <img src=https://github.com/user-attachments/assets/6bdf4cfb-3a0f-441b-9043-905ecfd78bce width = "630px">
+<p align="left">
+  <img src=https://github.com/user-attachments/assets/98e14786-fe96-45ee-9498-7fcd0c6bd16b width = "630px"> 
+<p align="left">
+  <img src=https://github.com/user-attachments/assets/7ea66a70-fda6-4217-9862-df88d5173c0f width = "630px">
 
+ * 분석 배경
+   * 점점 고령화 인구가 증가하면서 노인복지시설의 부족함으로 인한 문제가 대두되고 있어 노인복지시설 건축이 가장 시급한 지역을 알기 위해 분석을 진행하였습니다.
+ 
+ * 분석툴
+   * 파이썬
+     - pandas, geopandas 패키지를 활용해 데이터 분석
+     - folium 패키지를 활용해 히트맵 시각화
+   * SPSS
+     - 군집분석을 위해 Elbow-Method, Silhouette 계수를 추출하여 최적 군집 수 결정
+     - K-means, Gaussian, Agglomerlative 군집분석 진행
+ 
+ * 분석절차
+   1. 데이터 수집: 공공데이터포털인 열린데이터광장과 빅데이터캠퍼스에서 노인 관련 데이터 수집
+   2. 데이터 전처리: 법정동명을 행정동명으로 통일화, MIN-MAX 정규화를 통해 데이터 표준화
+   3. 데이터 분석: 히트맵을 통해 행정동별 데이터 시각화 후 군집 분석 진행, 각각의 군집분석 결과의 교집합인 행정동을 최적입지로 선정
+   4. 결론: 최적입지로 선정된 행정동 중 인구와 현재의 노인복지시설 개수를 고려하여 최종입지선정
+   5. 기대효과: 점점 늘어날 것으로 추정되는 고령화 인구에 대비해 미리 노인복지시설을 건축하여 미래 노인의 삶의 질 향상
+
+  
+ * 분석결과
+   - 각각의 군집분석을 통해 추출된 행정동 중 교집합에 해당하는 21개 행정동 추출, 이 중 노인복지시설이 1개 이하인 행정동 9개를 추출하여 최적입지로 선정하였습니다.
+
+
+
+ * 프로젝트 한계점
+   - 네 개의 노인복지시설을 모두 합한 후 분석을 진행하여 도출된 결과이기 떄문에 해당하는 행정동에 어떤 노인복지시설이 필요한지 모른다는 한계점
+   - 분석에서 고려한 변수들로 최적입지를 선정하기엔 분석의 타당도가 떨어진다는 한계점
+  
+ * 파이썬 코드
+   - [히트맵 파이썬코드](https://github.com/choijouneun/choijongeun/blob/main/heatmap%20code.ipynb)
+   - [노인복지시 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4%EA%B0%9C%EC%88%98%20heatmap.png)
+   - [부동산시세 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%B6%80%EB%8F%99%EC%82%B0%EC%8B%9C%EC%84%B8%20heatmap.png)
+   - [노인인구 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B5%AC%20heatmap.png)
+   - [대중교통편의지수 heatmap](https://github.com/choijouneun/choijongeun/blob/%EB%85%B8%EC%9D%B8%EB%B3%B5%EC%A7%80%EC%8B%9C%EC%84%A4/%EB%8C%80%EC%A4%91%EA%B5%90%ED%86%B5%ED%8E%B8%EC%9D%98%EC%A7%80%EC%88%98%20heatmap.png)
+
+</details>
 ___
 
 
